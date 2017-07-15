@@ -1,0 +1,945 @@
+﻿Log file open, 07/14/17 20:19:00
+LogInit:Display: Running engine for game: Supers
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(845491798) SRandInit(845491798).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100046
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.15-03.19.01:305][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.15-03.19.01:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.15-03.19.01:336][  0]LogInit: Computer: DESKTOP-2T88I18
+[2017.07.15-03.19.01:336][  0]LogInit: User: NewXB
+[2017.07.15-03.19.01:336][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.15-03.19.01:336][  0]LogInit: High frequency timer resolution =2.648439 MHz
+[2017.07.15-03.19.01:336][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.07.15-03.19.01:336][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.19.01:336][  0]LogMemory: Process Physical Memory: 274.10 MB used, 274.10 MB peak
+[2017.07.15-03.19.01:336][  0]LogMemory: Process Virtual Memory: 260.91 MB used, 260.91 MB peak
+[2017.07.15-03.19.01:336][  0]LogMemory: Physical Memory: 13332.81 MB used,  19370.93 MB free, 32703.74 MB total
+[2017.07.15-03.19.01:336][  0]LogMemory: Virtual Memory: 638.47 MB used,  19370.93 MB free, 134217728.00 MB total
+[2017.07.15-03.19.02:063][  0]LogInit: Using OS detected language (en-US).
+[2017.07.15-03.19.02:063][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.15-03.19.02:108][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.15-03.19.04:626][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.15-03.19.05:054][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.15-03.19.05:054][  0]LogD3D11RHI:       8113/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.15-03.19.05:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.15-03.19.05:056][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.15-03.19.05:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.15-03.19.05:063][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.15-03.19.05:064][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.15-03.19.05:064][  0]LogWindows: EnumDisplayDevices:
+[2017.07.15-03.19.05:064][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.15-03.19.05:064][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.15-03.19.05:064][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.15-03.19.05:064][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.15-03.19.05:064][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.15-03.19.05:064][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.15-03.19.05:064][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.07.15-03.19.05:064][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.07.15-03.19.05:064][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.15-03.19.05:093][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.15-03.19.05:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.15-03.19.05:145][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../supers-master/supers-master 4.16/supers/Intermediate/Shaders/WorkingDirectory/16860/).
+[2017.07.15-03.19.05:145][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NewXB/AppData/Local/Temp/UnrealShaderWorkingDir/A80A80624FC3B224368C56A7FEBDE787/'.
+[2017.07.15-03.19.05:145][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.15-03.19.06:887][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.15-03.19.06:939][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.15-03.19.06:993][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.15-03.19.07:046][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.15-03.19.07:102][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.15-03.19.07:155][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.15-03.19.07:211][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.15-03.19.07:266][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.15-03.19.07:314][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.15-03.19.07:371][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.15-03.19.07:423][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.15-03.19.07:475][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.15-03.19.07:525][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.15-03.19.07:578][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.15-03.19.07:628][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.15-03.19.07:733][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.15-03.19.07:733][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.15-03.19.07:780][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.15-03.19.07:879][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.15-03.19.07:908][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.15-03.19.07:961][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.15-03.19.08:012][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.15-03.19.08:064][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.15-03.19.08:120][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.15-03.19.08:120][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.15-03.19.08:684][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache: Loaded boot cache 0.09s 89MB C:/Users/NewXB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/NewXB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../supers-master/supers-master 4.16/supers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../supers-master/supers-master 4.16/supers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.15-03.19.08:771][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.15-03.19.08:791][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.15-03.19.08:805][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NewXB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.15-03.19.08:816][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.15-03.19.08:816][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.15-03.19.08:830][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.15-03.19.08:830][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.15-03.19.09:231][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.15-03.19.09:359][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.15-03.19.09:543][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.15-03.19.09:591][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.15-03.19.09:643][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.15-03.19.09:643][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.15-03.19.09:643][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.15-03.19.10:689][  0]LogNetVersion: Supers , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3304520363)
+[2017.07.15-03.19.10:766][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.07.15-03.19.10:840][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.051865 seconds
+[2017.07.15-03.19.10:845][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.15-03.19.10:845][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.15-03.19.10:845][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.15-03.19.10:910][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.15-03.19.14:690][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.15-03.19.14:733][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.15-03.19.15:370][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.15-03.19.15:865][  0]SourceControl: Info Source control is disabled
+[2017.07.15-03.19.15:945][  0]SourceControl: Info Source control is disabled
+[2017.07.15-03.19.15:998][  0]SourceControl: Info Source control is disabled
+[2017.07.15-03.19.16:050][  0]SourceControl: Info Source control is disabled
+[2017.07.15-03.19.16:805][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.15-03.19.17:469][  0]LogEngine: Initializing Engine...
+[2017.07.15-03.19.17:549][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.07.15-03.19.17:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.15-03.19.17:861][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.15-03.19.18:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.15-03.19.18:022][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.07.15-03.19.18:102][  0]LogInit: FAudioDevice initialized.
+[2017.07.15-03.19.18:146][  0]LogDerivedDataCache: Saved boot cache 0.04s 89MB C:/Users/NewXB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.15-03.19.18:161][  0]LogInit: Texture streaming: Enabled
+[2017.07.15-03.19.18:268][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.15-03.19.18:545][  0]LogInit: Transaction tracking system initialized
+[2017.07.15-03.19.18:949][  0]BlueprintLog: New page: Editor Load
+[2017.07.15-03.19.20:018][  0]LocalizationService: Info Localization service is disabled
+[2017.07.15-03.19.20:836][  0]LogConsoleResponse:Display: 
+[2017.07.15-03.19.21:208][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.15-03.19.21:208][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.15-03.19.21:705][  0]LogFileCache: Scanning file cache for directory 'C:/supers-master/supers-master 4.16/supers/Content/' took 0.02s
+[2017.07.15-03.19.22:439][  0]SourceControl: Info Source control is disabled
+[2017.07.15-03.19.22:439][  0]Cmd: MAP LOAD FILE="../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.15-03.19.22:439][  0]LightingResults: New page: Lighting Build
+[2017.07.15-03.19.22:484][  0]MapCheck: New page: Map Check
+[2017.07.15-03.19.22:484][  0]LightingResults: New page: Lighting Build
+[2017.07.15-03.19.23:011][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.Blueprint_Effect_Sparks:EdGraph_0.K2Node_FunctionEntry_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.23:012][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.Blueprint_Effect_Sparks:EdGraph_1.K2Node_FunctionEntry_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.23:808][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.Blueprint_Effect_Sparks:EdGraph_2.K2Node_FunctionEntry_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.24:853][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Fire_Sparks01_Cue.Fire_Sparks01_Cue:SoundCueGraph_7.SoundCueGraphNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.24:853][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Audio/Fire_Sparks01_Cue.Fire_Sparks01_Cue:SoundCueGraph_7.SoundCueGraphNode_Root_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.24:853][  0]LogBlueprint:Warning: Node '/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks.Blueprint_Effect_Sparks:UserConstructionScript.K2Node_FunctionEntry_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.07.15-03.19.25:106][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.19.25:130][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.15-03.19.25:162][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player6_1522 player6_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player6_1522 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player5_6470 player5_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player5_6470 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player4_2142 player4_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player4_2142 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player3_1752 player3_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player3_1752 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player2_2572 player2_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player2_2572 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning player1_1352 player1_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player1_1352 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning TwinStickExampleMap_C_1 TwinStickExampleMap_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player6_1522.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player6_1522.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player6_1522.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player5_6470.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player5_6470.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player5_6470.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player4_2142.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player4_2142.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player4_2142.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player3_1752.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player3_1752.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player3_1752.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player2_2572.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player2_2572.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player2_2572.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player1_1352.ShipMeshComponent : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning EnergyShield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player1_1352.EnergyShield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning Shield StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.player1_1352.Shield : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Floor_18.StaticMeshComponent0 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall1_17.StaticMeshComponent0 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall5.StaticMeshComponent0 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall6.StaticMeshComponent0 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall7.StaticMeshComponent0 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning K2Node_CallFunction_2339 K2Node_CallFunction /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap.EventGraph.K2Node_CallFunction_2339 : Externally referenced 
+[2017.07.15-03.19.25:274][  0]MapCheck:Warning: Warning K2Node_CallFunction_134 K2Node_CallFunction /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap.EventGraph.K2Node_CallFunction_134 : Externally referenced 
+[2017.07.15-03.19.25:275][  0]MapCheck: Info Map check complete: 0 Error(s), 32 Warning(s), took 111.956ms to complete.
+[2017.07.15-03.19.25:282][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 2.844
+[2017.07.15-03.19.25:443][  0]LogCollectionManager: Loaded 0 collections in 0.001326 seconds
+[2017.07.15-03.19.25:529][  0]LogFileCache: Scanning file cache for directory 'C:/supers-master/supers-master 4.16/supers/Saved/Collections/' took 0.01s
+[2017.07.15-03.19.25:529][  0]LogFileCache: Scanning file cache for directory 'C:/supers-master/supers-master 4.16/supers/Content/Developers/NewXB/Collections/' took 0.01s
+[2017.07.15-03.19.25:529][  0]LogFileCache: Scanning file cache for directory 'C:/supers-master/supers-master 4.16/supers/Content/Collections/' took 0.01s
+[2017.07.15-03.19.25:529][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.15-03.19.25:537][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2017.07.15-03.19.25:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.15-03.19.25:881][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.15-03.19.25:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.15-03.19.25:967][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.15-03.19.25:981][  0]LogSlate: Took 0.004697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.15-03.19.25:985][  0]LogSlate: Took 0.002962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.15-03.19.25:992][  0]LogSlate: Took 0.003568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.15-03.19.26:139][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.15-03.19.26:193][  0]LogSlate: Took 0.003383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.15-03.19.26:374][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.15-03.19.26:442][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.15-03.19.26:443][  0]LogLoad: (Engine Initialization) Total time: 27.45 seconds
+[2017.07.15-03.19.26:443][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
+[2017.07.15-03.19.26:443][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.15-03.19.26:443][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.15-03.19.26:464][  0]LogOcInput: OculusInput pre-init called
+[2017.07.15-03.19.26:464][  0]LogHMD: Starting GearVRController plugin
+[2017.07.15-03.19.26:513][  0]LogAssetRegistry: Asset discovery search completed in 15.7688 seconds
+[2017.07.15-03.19.26:515][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.15-03.19.26:515][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.07.15-03.19.26:515][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.15-03.19.56:577][792]Cmd: MAP LOAD FILE="../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Maps/SupersMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.15-03.19.56:582][792]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.15-03.19.56:592][792]LightingResults: New page: Lighting Build
+[2017.07.15-03.19.56:593][792]LoadErrors: New page: Loading map: SupersMain.umap
+[2017.07.15-03.19.56:596][792]MapCheck: New page: Map Check
+[2017.07.15-03.19.56:596][792]LightingResults: New page: Lighting Build
+[2017.07.15-03.19.56:616][792]LogAIModule: Creating AISystem for world SupersMain
+[2017.07.15-03.19.56:698][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.15-03.19.56:752][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.15-03.19.56:826][792]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.18ms to complete.
+[2017.07.15-03.19.56:826][792]LogFileHelpers: Loading map 'SupersMain' took 0.250
+[2017.07.15-03.20.26:950][570]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.07.15-03.20.27:559][570]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.15-03.20.27:653][570]LogSlate: Took 0.003115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.15-03.20.29:365][667]LogSlate: Took 0.003286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.15-03.21.26:115][ 66]LogSlate: Took 0.002978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.15-03.21.49:501][464]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.25.03:256][  3]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.25.12:851][568]LogSavePackage: Save=26.16ms
+[2017.07.15-03.25.12:851][568]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameModeD04F466443E2C54547329AACF50D68C0.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.25.12:855][568]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-03.25.20:016][994]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.15-03.25.20:082][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.25.20:082][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.25.20:082][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.15-03.25.20:082][994]PIE: New page: PIE session: SupersMain (Jul 14, 2017, 1:25:20 PM)
+[2017.07.15-03.25.20:082][994]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain
+[2017.07.15-03.25.20:083][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000973s)
+[2017.07.15-03.25.20:084][994]LogAIModule: Creating AISystem for world SupersMain
+[2017.07.15-03.25.20:084][994]LogPlayLevel: PIE: World Init took: (0.000464s)
+[2017.07.15-03.25.20:084][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/SupersMain.SupersMain to /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain.SupersMain (0.001625s)
+[2017.07.15-03.25.20:106][994]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.07.15-03.25.20:177][994]LogInit: FAudioDevice initialized.
+[2017.07.15-03.25.20:230][994]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.20:233][994]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain.SupersMain up for play (max tick rate 60) at 2017.07.14-20.25.20
+[2017.07.15-03.25.20:233][994]LogWorld: Bringing up level for play took: 0.000822
+[2017.07.15-03.25.20:284][994]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.15-03.25.20:284][994]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.20:284][994]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.20:284][994]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.20:285][994]LogLevel: ActivateLevel /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1 1 0
+[2017.07.15-03.25.20:285][994]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.20:288][994]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain 0.988
+[2017.07.15-03.25.20:289][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.25.20:289][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.25.20:311][994]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.20:311][994]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.20:312][994]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.20:312][994]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.20:312][994]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.20:312][994]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.20:330][994]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.07.15-03.25.24:435][235]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.24:451][236]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.24:451][236]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.24:452][236]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.24:452][236]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.24:468][236]Cmd: MEM
+[2017.07.15-03.25.24:482][236]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.24:482][236]LogMemory: Process Physical Memory: 1517.32 MB used, 1555.20 MB peak
+[2017.07.15-03.25.24:482][236]LogMemory: Process Virtual Memory: 2429.71 MB used, 2550.82 MB peak
+[2017.07.15-03.25.24:482][236]LogMemory: Physical Memory: 14611.34 MB used,  18092.40 MB free, 32703.74 MB total
+[2017.07.15-03.25.24:482][236]LogMemory: Virtual Memory: 3456.34 MB used,  18092.40 MB free, 134217728.00 MB total
+[2017.07.15-03.25.24:482][236]LogMemory: 
+[2017.07.15-03.25.24:482][236]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.24:482][236]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.24:491][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009251s)
+[2017.07.15-03.25.24:492][236]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.24:492][236]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2017.07.15-03.25.24:492][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.010413s)
+[2017.07.15-03.25.24:492][236]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.24:495][236]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.24
+[2017.07.15-03.25.24:496][236]LogWorld: Bringing up level for play took: 0.001983
+[2017.07.15-03.25.24:496][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.24:496][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.24:497][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.24:497][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.24:497][236]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.24:497][236]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.24:497][236]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.24:497][236]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.24:497][236]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.24:498][236]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.24:498][236]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.24:498][236]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.24:498][236]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.24:498][236]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.24:498][236]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.24:498][236]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.24:498][236]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.24:498][236]LogLoad: Took 0.046341 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.27:411][410]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.27:427][411]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.27:427][411]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.27:428][411]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.27:428][411]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.27:445][411]Cmd: MEM
+[2017.07.15-03.25.27:457][411]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.27:457][411]LogMemory: Process Physical Memory: 1510.12 MB used, 1555.20 MB peak
+[2017.07.15-03.25.27:457][411]LogMemory: Process Virtual Memory: 2299.95 MB used, 2550.82 MB peak
+[2017.07.15-03.25.27:457][411]LogMemory: Physical Memory: 14603.44 MB used,  18100.30 MB free, 32703.74 MB total
+[2017.07.15-03.25.27:457][411]LogMemory: Virtual Memory: 3390.91 MB used,  18100.30 MB free, 134217728.00 MB total
+[2017.07.15-03.25.27:457][411]LogMemory: 
+[2017.07.15-03.25.27:457][411]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.27:457][411]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.27:468][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010706s)
+[2017.07.15-03.25.27:469][411]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.27:469][411]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.07.15-03.25.27:469][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.011798s)
+[2017.07.15-03.25.27:469][411]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.27:472][411]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.27
+[2017.07.15-03.25.27:472][411]LogWorld: Bringing up level for play took: 0.001702
+[2017.07.15-03.25.27:473][411]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.27:473][411]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.27:473][411]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.27:473][411]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.27:473][411]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.27:473][411]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.27:473][411]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.27:474][411]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.27:474][411]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.27:474][411]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.27:474][411]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.27:474][411]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.27:474][411]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.27:474][411]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.27:474][411]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.27:474][411]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.27:474][411]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.27:474][411]LogLoad: Took 0.045781 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.29:372][525]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.29:388][526]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.29:388][526]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.29:389][526]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.29:389][526]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.29:405][526]Cmd: MEM
+[2017.07.15-03.25.29:417][526]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.29:417][526]LogMemory: Process Physical Memory: 1510.60 MB used, 1555.20 MB peak
+[2017.07.15-03.25.29:417][526]LogMemory: Process Virtual Memory: 2368.23 MB used, 2550.82 MB peak
+[2017.07.15-03.25.29:417][526]LogMemory: Physical Memory: 14602.98 MB used,  18100.76 MB free, 32703.74 MB total
+[2017.07.15-03.25.29:417][526]LogMemory: Virtual Memory: 3406.91 MB used,  18100.76 MB free, 134217728.00 MB total
+[2017.07.15-03.25.29:417][526]LogMemory: 
+[2017.07.15-03.25.29:417][526]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.29:417][526]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.29:427][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009621s)
+[2017.07.15-03.25.29:427][526]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.29:428][526]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.07.15-03.25.29:428][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.010491s)
+[2017.07.15-03.25.29:428][526]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.29:431][526]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.29
+[2017.07.15-03.25.29:431][526]LogWorld: Bringing up level for play took: 0.002344
+[2017.07.15-03.25.29:432][526]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.29:432][526]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.29:432][526]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.29:433][526]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.29:433][526]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.29:433][526]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.29:433][526]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.29:433][526]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.29:434][526]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.29:434][526]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.29:434][526]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.29:434][526]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.29:434][526]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.29:434][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.29:434][526]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.29:434][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.29:434][526]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.29:434][526]LogLoad: Took 0.045178 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.31:275][636]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.31:291][637]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.31:291][637]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.31:291][637]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.31:292][637]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.31:309][637]Cmd: MEM
+[2017.07.15-03.25.31:324][637]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.31:324][637]LogMemory: Process Physical Memory: 1569.79 MB used, 1578.11 MB peak
+[2017.07.15-03.25.31:324][637]LogMemory: Process Virtual Memory: 2362.73 MB used, 2550.82 MB peak
+[2017.07.15-03.25.31:324][637]LogMemory: Physical Memory: 14659.75 MB used,  18043.99 MB free, 32703.74 MB total
+[2017.07.15-03.25.31:324][637]LogMemory: Virtual Memory: 3406.91 MB used,  18043.99 MB free, 134217728.00 MB total
+[2017.07.15-03.25.31:324][637]LogMemory: 
+[2017.07.15-03.25.31:324][637]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.31:324][637]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.31:337][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012478s)
+[2017.07.15-03.25.31:337][637]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.31:337][637]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.07.15-03.25.31:338][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.013428s)
+[2017.07.15-03.25.31:338][637]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.31:340][637]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.31
+[2017.07.15-03.25.31:341][637]LogWorld: Bringing up level for play took: 0.001804
+[2017.07.15-03.25.31:341][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.31:341][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.31:341][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.31:341][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.31:342][637]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.31:342][637]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.31:342][637]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.31:342][637]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.31:342][637]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.31:342][637]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.31:342][637]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.31:342][637]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.31:343][637]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.31:343][637]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.31:343][637]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.31:343][637]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.31:343][637]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.31:343][637]LogLoad: Took 0.051381 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.33:518][767]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.33:534][768]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.33:534][768]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.33:534][768]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.33:534][768]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.33:553][768]Cmd: MEM
+[2017.07.15-03.25.33:569][768]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.33:569][768]LogMemory: Process Physical Memory: 1622.69 MB used, 1622.95 MB peak
+[2017.07.15-03.25.33:569][768]LogMemory: Process Virtual Memory: 2375.45 MB used, 2550.82 MB peak
+[2017.07.15-03.25.33:569][768]LogMemory: Physical Memory: 14708.26 MB used,  17995.48 MB free, 32703.74 MB total
+[2017.07.15-03.25.33:569][768]LogMemory: Virtual Memory: 3422.91 MB used,  17995.48 MB free, 134217728.00 MB total
+[2017.07.15-03.25.33:569][768]LogMemory: 
+[2017.07.15-03.25.33:569][768]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.33:569][768]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.33:579][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010396s)
+[2017.07.15-03.25.33:580][768]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.33:580][768]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.07.15-03.25.33:580][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.011247s)
+[2017.07.15-03.25.33:580][768]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.33:583][768]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.33
+[2017.07.15-03.25.33:583][768]LogWorld: Bringing up level for play took: 0.002077
+[2017.07.15-03.25.33:583][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.33:584][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.33:584][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.33:584][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.33:584][768]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.33:584][768]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.33:584][768]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.33:585][768]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.33:585][768]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.33:585][768]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.33:585][768]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.33:585][768]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.33:586][768]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.33:586][768]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.33:586][768]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.33:586][768]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.33:586][768]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.33:586][768]LogLoad: Took 0.051657 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.35:522][884]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.25.35:538][885]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.35:538][885]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.07.15-03.25.35:538][885]LogNet: Browse: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.35:539][885]LogLoad: LoadMap: /Game/TwinStickBP/Maps/TwinStickExampleMap
+[2017.07.15-03.25.35:556][885]Cmd: MEM
+[2017.07.15-03.25.35:568][885]LogMemory: Platform Memory Stats for Windows
+[2017.07.15-03.25.35:568][885]LogMemory: Process Physical Memory: 1628.72 MB used, 1628.95 MB peak
+[2017.07.15-03.25.35:568][885]LogMemory: Process Virtual Memory: 2371.45 MB used, 2550.82 MB peak
+[2017.07.15-03.25.35:568][885]LogMemory: Physical Memory: 14734.47 MB used,  17969.27 MB free, 32703.74 MB total
+[2017.07.15-03.25.35:568][885]LogMemory: Virtual Memory: 3422.91 MB used,  17969.27 MB free, 134217728.00 MB total
+[2017.07.15-03.25.35:568][885]LogMemory: 
+[2017.07.15-03.25.35:568][885]Allocator Stats for TBB: (not implemented)
+[2017.07.15-03.25.35:568][885]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2017.07.15-03.25.35:579][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010470s)
+[2017.07.15-03.25.35:580][885]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2017.07.15-03.25.35:580][885]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.07.15-03.25.35:580][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.011495s)
+[2017.07.15-03.25.35:580][885]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.25.35:583][885]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2017.07.14-20.25.35
+[2017.07.15-03.25.35:584][885]LogWorld: Bringing up level for play took: 0.002217
+[2017.07.15-03.25.35:584][885]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.35:584][885]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.35:584][885]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.35:585][885]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.15-03.25.35:585][885]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.35:585][885]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.25.35:585][885]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.35:585][885]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.07.15-03.25.35:585][885]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 2,
+[2017.07.15-03.25.35:585][885]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 3,
+[2017.07.15-03.25.35:585][885]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.35:585][885]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.25.35:586][885]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.25.35:586][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.25.35:586][885]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.25.35:586][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.25.35:586][885]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.25.35:586][885]LogLoad: Took 0.047342 seconds to LoadMap(/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap)
+[2017.07.15-03.25.47:554][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.25.47:554][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.25.47:623][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.25.47:623][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.28.34:507][595]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.28.41:876][ 20]LogSavePackage: Save=25.95ms
+[2017.07.15-03.28.41:876][ 20]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode2E6BE8734DE5B4D50D90548B9650C637.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.28.41:880][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-03.28.49:244][458]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.15-03.28.49:262][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.28.49:262][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.28.49:262][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.15-03.28.49:262][458]PIE: New page: PIE session: SupersMain (Jul 14, 2017, 1:28:49 PM)
+[2017.07.15-03.28.49:262][458]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain
+[2017.07.15-03.28.49:264][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001277s)
+[2017.07.15-03.28.49:264][458]LogAIModule: Creating AISystem for world SupersMain
+[2017.07.15-03.28.49:264][458]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2017.07.15-03.28.49:264][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/SupersMain.SupersMain to /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain.SupersMain (0.002107s)
+[2017.07.15-03.28.49:287][458]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.07.15-03.28.49:359][458]LogInit: FAudioDevice initialized.
+[2017.07.15-03.28.49:401][458]LogLoad: Game class is 'TwinStickGameMode_C'
+[2017.07.15-03.28.49:404][458]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain.SupersMain up for play (max tick rate 60) at 2017.07.14-20.28.49
+[2017.07.15-03.28.49:404][458]LogWorld: Bringing up level for play took: 0.000671
+[2017.07.15-03.28.49:404][458]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.28.49:404][458]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.07.15-03.28.49:404][458]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.28.49:405][458]LogLevel: ActivateLevel /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1 1 0
+[2017.07.15-03.28.49:405][458]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.07.15-03.28.49:408][458]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_SupersMain 0.107
+[2017.07.15-03.28.49:409][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.28.49:409][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.28.49:435][458]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.28.49:435][458]LogPlayerManagement:Error: Failed to Create Player: Maximum number of players (4) already created.  Unable to create more.
+[2017.07.15-03.28.49:435][458]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:0503
+[2017.07.15-03.28.49:435][458]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.07.15-03.28.49:435][458]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	TwinStickExampleMap_C /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap_C_1
+	Function /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C:ExecuteUbergraph_TwinStickExampleMap:014A
+[2017.07.15-03.28.49:435][458]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_TwinStickExampleMap' from node: Possess in graph: EventGraph in object: TwinStickExampleMap with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.07.15-03.28.53:787][716]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 1
+[2017.07.15-03.28.53:804][717]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 2
+[2017.07.15-03.28.53:820][718]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 3
+[2017.07.15-03.28.53:837][719]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 4
+[2017.07.15-03.28.53:854][720]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 5
+[2017.07.15-03.28.53:870][721]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 6
+[2017.07.15-03.28.53:888][722]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 7
+[2017.07.15-03.28.53:904][723]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 8
+[2017.07.15-03.28.53:920][724]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 9
+[2017.07.15-03.28.53:937][725]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 10
+[2017.07.15-03.28.53:954][726]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 11
+[2017.07.15-03.28.53:970][727]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 12
+[2017.07.15-03.28.53:987][728]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 13
+[2017.07.15-03.28.54:004][729]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 14
+[2017.07.15-03.28.54:020][730]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 15
+[2017.07.15-03.28.54:037][731]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 16
+[2017.07.15-03.28.54:053][732]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 17
+[2017.07.15-03.28.54:070][733]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 18
+[2017.07.15-03.28.54:087][734]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 19
+[2017.07.15-03.28.54:104][735]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 20
+[2017.07.15-03.28.54:121][736]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 21
+[2017.07.15-03.28.54:138][737]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 22
+[2017.07.15-03.28.54:154][738]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 23
+[2017.07.15-03.28.54:170][739]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 24
+[2017.07.15-03.28.54:187][740]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 25
+[2017.07.15-03.28.54:204][741]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 26
+[2017.07.15-03.28.54:220][742]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 27
+[2017.07.15-03.28.54:237][743]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 28
+[2017.07.15-03.28.54:253][744]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 29
+[2017.07.15-03.28.54:271][745]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 30
+[2017.07.15-03.28.54:287][746]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 31
+[2017.07.15-03.28.54:304][747]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 32
+[2017.07.15-03.28.54:320][748]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 33
+[2017.07.15-03.28.54:337][749]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 34
+[2017.07.15-03.28.54:354][750]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 35
+[2017.07.15-03.28.54:370][751]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 36
+[2017.07.15-03.28.54:388][752]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 37
+[2017.07.15-03.28.54:404][753]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 38
+[2017.07.15-03.28.54:420][754]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 39
+[2017.07.15-03.28.54:437][755]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 40
+[2017.07.15-03.28.54:454][756]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 41
+[2017.07.15-03.28.54:471][757]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 42
+[2017.07.15-03.28.54:487][758]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 43
+[2017.07.15-03.28.54:504][759]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 44
+[2017.07.15-03.28.54:520][760]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 45
+[2017.07.15-03.28.54:537][761]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 46
+[2017.07.15-03.28.54:553][762]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 47
+[2017.07.15-03.28.54:571][763]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 48
+[2017.07.15-03.28.54:587][764]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 49
+[2017.07.15-03.28.54:604][765]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 50
+[2017.07.15-03.28.54:620][766]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 51
+[2017.07.15-03.28.54:638][767]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 52
+[2017.07.15-03.28.54:654][768]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 53
+[2017.07.15-03.28.54:670][769]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 54
+[2017.07.15-03.28.54:687][770]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 55
+[2017.07.15-03.28.54:704][771]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 56
+[2017.07.15-03.28.54:721][772]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 57
+[2017.07.15-03.28.54:737][773]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 58
+[2017.07.15-03.28.54:754][774]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 59
+[2017.07.15-03.28.54:770][775]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 60
+[2017.07.15-03.28.54:787][776]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 61
+[2017.07.15-03.28.54:804][777]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 62
+[2017.07.15-03.28.54:820][778]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 63
+[2017.07.15-03.28.54:837][779]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 64
+[2017.07.15-03.28.54:854][780]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 65
+[2017.07.15-03.28.54:870][781]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 66
+[2017.07.15-03.28.54:888][782]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 67
+[2017.07.15-03.28.54:904][783]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 68
+[2017.07.15-03.28.54:920][784]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 69
+[2017.07.15-03.28.54:937][785]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 70
+[2017.07.15-03.28.54:954][786]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 71
+[2017.07.15-03.28.54:970][787]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 72
+[2017.07.15-03.28.54:987][788]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 73
+[2017.07.15-03.28.55:004][789]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 74
+[2017.07.15-03.28.55:020][790]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 75
+[2017.07.15-03.28.55:037][791]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 76
+[2017.07.15-03.28.55:054][792]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 77
+[2017.07.15-03.28.55:070][793]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 78
+[2017.07.15-03.28.55:087][794]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 79
+[2017.07.15-03.28.55:104][795]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 80
+[2017.07.15-03.28.55:120][796]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 81
+[2017.07.15-03.28.55:137][797]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 82
+[2017.07.15-03.28.55:154][798]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 83
+[2017.07.15-03.28.55:171][799]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 84
+[2017.07.15-03.28.55:187][800]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 85
+[2017.07.15-03.28.55:204][801]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 86
+[2017.07.15-03.28.55:221][802]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 87
+[2017.07.15-03.28.55:237][803]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 88
+[2017.07.15-03.28.55:254][804]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 89
+[2017.07.15-03.28.55:270][805]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 90
+[2017.07.15-03.28.55:287][806]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 91
+[2017.07.15-03.28.55:304][807]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 92
+[2017.07.15-03.28.55:320][808]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 93
+[2017.07.15-03.28.55:337][809]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 94
+[2017.07.15-03.28.55:354][810]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 95
+[2017.07.15-03.28.55:370][811]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 96
+[2017.07.15-03.28.55:388][812]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 97
+[2017.07.15-03.28.55:404][813]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 98
+[2017.07.15-03.28.55:420][814]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 99
+[2017.07.15-03.28.55:437][815]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 100
+[2017.07.15-03.28.55:454][816]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 101
+[2017.07.15-03.28.55:471][817]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 102
+[2017.07.15-03.28.55:487][818]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 103
+[2017.07.15-03.28.55:504][819]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 104
+[2017.07.15-03.28.55:521][820]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 105
+[2017.07.15-03.28.55:537][821]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 106
+[2017.07.15-03.28.55:554][822]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 107
+[2017.07.15-03.28.55:570][823]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 108
+[2017.07.15-03.28.55:587][824]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 109
+[2017.07.15-03.28.55:604][825]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 110
+[2017.07.15-03.28.55:620][826]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 111
+[2017.07.15-03.28.55:637][827]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 112
+[2017.07.15-03.28.55:654][828]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 113
+[2017.07.15-03.28.55:671][829]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 114
+[2017.07.15-03.28.55:687][830]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 115
+[2017.07.15-03.28.55:704][831]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 116
+[2017.07.15-03.28.55:720][832]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 117
+[2017.07.15-03.28.55:737][833]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 118
+[2017.07.15-03.28.55:754][834]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 119
+[2017.07.15-03.28.55:770][835]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 120
+[2017.07.15-03.28.55:787][836]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 121
+[2017.07.15-03.28.55:804][837]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 122
+[2017.07.15-03.28.55:820][838]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 123
+[2017.07.15-03.28.55:837][839]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 124
+[2017.07.15-03.28.55:854][840]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 125
+[2017.07.15-03.28.55:870][841]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 126
+[2017.07.15-03.28.55:887][842]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 127
+[2017.07.15-03.28.55:904][843]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 128
+[2017.07.15-03.28.55:920][844]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 129
+[2017.07.15-03.28.55:937][845]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 130
+[2017.07.15-03.28.55:954][846]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 131
+[2017.07.15-03.28.55:970][847]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 132
+[2017.07.15-03.28.55:987][848]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 133
+[2017.07.15-03.28.56:004][849]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 134
+[2017.07.15-03.28.56:020][850]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 135
+[2017.07.15-03.28.56:037][851]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 136
+[2017.07.15-03.28.56:054][852]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 137
+[2017.07.15-03.28.56:070][853]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 138
+[2017.07.15-03.28.56:087][854]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 139
+[2017.07.15-03.28.56:104][855]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 140
+[2017.07.15-03.28.56:121][856]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 141
+[2017.07.15-03.28.56:138][857]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 142
+[2017.07.15-03.28.56:154][858]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 143
+[2017.07.15-03.28.56:170][859]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 144
+[2017.07.15-03.28.56:187][860]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 145
+[2017.07.15-03.28.56:204][861]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 146
+[2017.07.15-03.28.56:221][862]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 147
+[2017.07.15-03.28.56:237][863]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 148
+[2017.07.15-03.28.56:254][864]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 149
+[2017.07.15-03.28.56:270][865]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 150
+[2017.07.15-03.28.56:287][866]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 151
+[2017.07.15-03.28.56:304][867]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 152
+[2017.07.15-03.28.56:320][868]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 153
+[2017.07.15-03.28.56:337][869]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 154
+[2017.07.15-03.28.56:354][870]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 155
+[2017.07.15-03.28.56:371][871]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 156
+[2017.07.15-03.28.56:388][872]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 157
+[2017.07.15-03.28.56:404][873]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 158
+[2017.07.15-03.28.56:420][874]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 159
+[2017.07.15-03.28.56:437][875]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 160
+[2017.07.15-03.28.56:454][876]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 161
+[2017.07.15-03.28.56:470][877]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 162
+[2017.07.15-03.28.56:487][878]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 163
+[2017.07.15-03.28.56:504][879]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 164
+[2017.07.15-03.28.56:520][880]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 165
+[2017.07.15-03.28.56:537][881]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 166
+[2017.07.15-03.28.56:554][882]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 167
+[2017.07.15-03.28.56:571][883]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 168
+[2017.07.15-03.28.56:587][884]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 169
+[2017.07.15-03.28.56:604][885]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 170
+[2017.07.15-03.28.56:620][886]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 171
+[2017.07.15-03.28.56:637][887]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 172
+[2017.07.15-03.28.56:654][888]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 173
+[2017.07.15-03.28.56:671][889]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 174
+[2017.07.15-03.28.56:687][890]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 175
+[2017.07.15-03.28.56:704][891]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 176
+[2017.07.15-03.28.56:721][892]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 177
+[2017.07.15-03.28.56:737][893]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 178
+[2017.07.15-03.28.56:754][894]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 179
+[2017.07.15-03.28.56:770][895]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 180
+[2017.07.15-03.28.56:787][896]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 181
+[2017.07.15-03.28.56:804][897]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 182
+[2017.07.15-03.28.56:820][898]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 183
+[2017.07.15-03.28.56:837][899]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 184
+[2017.07.15-03.28.56:854][900]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 185
+[2017.07.15-03.28.56:870][901]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 186
+[2017.07.15-03.28.56:888][902]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 187
+[2017.07.15-03.28.56:904][903]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 188
+[2017.07.15-03.28.56:920][904]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 189
+[2017.07.15-03.28.56:937][905]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 190
+[2017.07.15-03.28.56:954][906]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 191
+[2017.07.15-03.28.56:970][907]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 192
+[2017.07.15-03.28.56:987][908]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 193
+[2017.07.15-03.28.57:004][909]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 194
+[2017.07.15-03.28.57:021][910]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 195
+[2017.07.15-03.28.57:037][911]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 196
+[2017.07.15-03.28.57:054][912]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 197
+[2017.07.15-03.28.57:070][913]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 198
+[2017.07.15-03.28.57:087][914]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 199
+[2017.07.15-03.28.57:104][915]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 200
+[2017.07.15-03.28.57:120][916]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 201
+[2017.07.15-03.28.57:138][917]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 202
+[2017.07.15-03.28.57:154][918]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 203
+[2017.07.15-03.28.57:170][919]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 204
+[2017.07.15-03.28.57:187][920]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 205
+[2017.07.15-03.28.57:204][921]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 206
+[2017.07.15-03.28.57:221][922]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 207
+[2017.07.15-03.28.57:237][923]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 208
+[2017.07.15-03.28.57:254][924]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 209
+[2017.07.15-03.28.57:271][925]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 210
+[2017.07.15-03.28.57:287][926]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 211
+[2017.07.15-03.28.57:304][927]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 212
+[2017.07.15-03.28.57:321][928]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 213
+[2017.07.15-03.28.57:337][929]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 214
+[2017.07.15-03.28.57:354][930]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 215
+[2017.07.15-03.28.57:371][931]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 216
+[2017.07.15-03.28.57:388][932]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 217
+[2017.07.15-03.28.57:404][933]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 218
+[2017.07.15-03.28.57:421][934]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 219
+[2017.07.15-03.28.57:437][935]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 220
+[2017.07.15-03.28.57:454][936]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 221
+[2017.07.15-03.28.57:471][937]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 222
+[2017.07.15-03.28.57:487][938]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 223
+[2017.07.15-03.28.57:504][939]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 224
+[2017.07.15-03.28.57:521][940]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 225
+[2017.07.15-03.28.57:537][941]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 226
+[2017.07.15-03.28.57:554][942]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 227
+[2017.07.15-03.28.57:570][943]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 228
+[2017.07.15-03.28.57:587][944]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 229
+[2017.07.15-03.28.57:604][945]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 230
+[2017.07.15-03.28.57:620][946]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 231
+[2017.07.15-03.28.57:638][947]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 232
+[2017.07.15-03.28.57:654][948]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 233
+[2017.07.15-03.28.57:670][949]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 234
+[2017.07.15-03.28.57:687][950]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 235
+[2017.07.15-03.28.57:704][951]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 236
+[2017.07.15-03.28.57:721][952]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 237
+[2017.07.15-03.28.57:737][953]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 238
+[2017.07.15-03.28.57:754][954]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 239
+[2017.07.15-03.28.57:771][955]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 240
+[2017.07.15-03.28.57:787][956]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 241
+[2017.07.15-03.28.57:804][957]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 242
+[2017.07.15-03.28.57:821][958]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 243
+[2017.07.15-03.28.57:837][959]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 244
+[2017.07.15-03.28.57:854][960]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 245
+[2017.07.15-03.28.57:870][961]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 246
+[2017.07.15-03.28.57:888][962]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 247
+[2017.07.15-03.28.57:904][963]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 248
+[2017.07.15-03.28.57:921][964]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 249
+[2017.07.15-03.28.57:937][965]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 250
+[2017.07.15-03.28.57:954][966]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 251
+[2017.07.15-03.28.57:970][967]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 252
+[2017.07.15-03.28.57:987][968]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 253
+[2017.07.15-03.28.58:004][969]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 254
+[2017.07.15-03.28.58:020][970]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 255
+[2017.07.15-03.28.58:037][971]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 256
+[2017.07.15-03.28.58:054][972]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 257
+[2017.07.15-03.28.58:070][973]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 258
+[2017.07.15-03.28.58:087][974]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 259
+[2017.07.15-03.28.58:104][975]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 260
+[2017.07.15-03.28.58:120][976]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 261
+[2017.07.15-03.28.58:138][977]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 262
+[2017.07.15-03.28.58:154][978]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 263
+[2017.07.15-03.28.58:170][979]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 264
+[2017.07.15-03.28.58:187][980]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 265
+[2017.07.15-03.28.58:204][981]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 266
+[2017.07.15-03.28.58:221][982]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 267
+[2017.07.15-03.28.58:237][983]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 268
+[2017.07.15-03.28.58:254][984]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 269
+[2017.07.15-03.28.58:270][985]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 270
+[2017.07.15-03.28.58:287][986]LogBlueprintUserMessages: [TwinStickGameMode_C_0] 271
+[2017.07.15-03.28.58:288][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.28.58:288][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.28.58:348][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain' with GeneratedClass '/Game/TwinStickBP/Maps/SupersMain.SupersMain_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/SupersMain.SupersMain:PersistentLevel.SupersMain'
+[2017.07.15-03.28.58:348][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2017.07.15-03.30.56:850][ 75]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.15-03.31.05:880][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/SupersMain' took 0.016
+[2017.07.15-03.31.05:882][615]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickGameMode] ([1] browsable assets)...
+[2017.07.15-03.31.05:882][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickGameMode]
+[2017.07.15-03.31.05:931][615]LogSavePackage: Save=25.68ms
+[2017.07.15-03.31.05:931][615]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode_Auto1E0CA0D384573ED832D5DCD8F671B8ACF.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickGameMode_Auto1.uasset'
+[2017.07.15-03.31.05:933][615]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickGameMode_Auto1.uasset
+[2017.07.15-03.31.05:933][615]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.07.15-03.34.59:343][598]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.36.13:343][ 13]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.36.22:375][537]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.40.37:668][831]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.40.48:293][451]LogSavePackage: Save=28.57ms
+[2017.07.15-03.40.48:293][451]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode7514DB9E4AAAC9DCF79B5EB321FC6135.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.40.48:297][451]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-03.44.09:013][171]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.44.12:656][372]LogSavePackage: Save=32.84ms
+[2017.07.15-03.44.12:656][372]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode015DDC3843FECB26224C38A79E714BC7.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.44.12:661][372]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-03.46.49:707][897]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.47.28:898][237]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/SupersMain' took 0.017
+[2017.07.15-03.47.28:900][237]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickGameMode] ([1] browsable assets)...
+[2017.07.15-03.47.28:900][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickGameMode]
+[2017.07.15-03.47.28:964][237]LogSavePackage: Save=38.34ms
+[2017.07.15-03.47.28:964][237]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode_Auto26599C86B41E58A46F38639AB56AB8888.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickGameMode_Auto2.uasset'
+[2017.07.15-03.47.28:966][237]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickGameMode_Auto2.uasset
+[2017.07.15-03.47.28:966][237]LogFileHelpers: Auto-saving content packages took 0.067
+[2017.07.15-03.51.51:800][999]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.51.53:379][ 76]LogSavePackage: Save=36.79ms
+[2017.07.15-03.51.53:380][ 76]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode2552952F4A6EC4B8BAE3769D8BBC8B87.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.51.53:383][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-03.57.37:657][677]BlueprintLog: New page: Compile TwinStickGameMode
+[2017.07.15-03.57.38:698][720]LogSavePackage: Save=37.36ms
+[2017.07.15-03.57.38:698][720]LogSavePackage: Moving '../../../../../../supers-master/supers-master 4.16/supers/Saved/TwinStickGameMode9020DDD94864A59F407BE7900DD0638E.tmp' to '../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2017.07.15-03.57.38:702][720]LogSavePackage:Display: Finished SavePackage ../../../../../../supers-master/supers-master 4.16/supers/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2017.07.15-04.00.08:347][640]LogUObjectArray:Warning: Invalid object index 7536741
+[2017.07.15-04.00.08:579][640]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.232 s
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: 
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: Stack: 
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CFE256
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0AAB862
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0AC1E26
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000A1007556
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000AC36D27B
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000A95E24AA
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000A94872CC
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000A948A6D9
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000A95A8035
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B6FADB57
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B6FB4B61
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B71D48D3
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B700F604
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B6FE77FC
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B6FD814C
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CF1550
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CDB771
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CF337B
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CD7AC2
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: USER32.dll!0x000000000AF5BC50
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: USER32.dll!0x000000000AF5B5CF
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000B0CF3C86
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5D3DB44
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5D2F0B0
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5D2F12A
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5D40CF9
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5D425F7
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: KERNEL32.DLL!0x000000000A942774
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: ntdll.dll!0x000000000BB00D61
+[2017.07.15-04.00.08:579][640]LogOutputDevice:Error: 
+[2017.07.15-04.00.08:588][640]LogStats:                SubmitErrorReport -  0.000 s
